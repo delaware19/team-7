@@ -1,0 +1,5 @@
+Total amount of locations: 102
+
+Delaware/Jersey/Pennsylvania: 48
+Georgia: 1
+Florida: 53
