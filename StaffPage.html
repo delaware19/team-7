@@ -8,6 +8,9 @@
         <!--Bootstrap CDN -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+        <!-- CSS file -->
+       <link rel="stylesheet" href="/Users/john/CodeForGood/team-7/StaffPage.css">
+
     <title>Staff page</title>
 </head>
     <body>
@@ -19,16 +22,12 @@
 
         <!-- Body -->
         <div class="row" style="height: 10vh; background-color:lightblue;"></div>
-        <div class="row" style="padding-left: 3rem">
-            <div class="col-md-3" style="width-max: 15vh;">
-                <img src="doctor-headshot.jpg" style="max-height: 20vh; ">
-            </div>
-        </div>
+
 
 
 
         <!-- Patient List -->
-        <div class="row">
+        <div class="row visible" style="padding-top: 6rem;">
                 <div class="col-lg-3"></div>
                 <div class="col-lg-3 container" style="background-color: grey; text-align: center " >
                    
@@ -45,11 +44,32 @@
                             </ul>
                 </div>
                 <div class="col-lg-3"></div>
-
-
-
         </div>
 
+        <div class="container invisible" style="padding-top: 2%;">
+            <form>
+                <div class="form-group">
+                    <label ><h5>Personal Social Story</h5></label>
+                    <textarea class="form-control col-lg-8" rows="3" ></textarea>
+                </div>
+            </form>
+        </div>
+
+
+        <!-- <script>
+        
+            function divVisibility(){
+                if(get)
+            }
+
+
+        changeVisbile(){
+        var forms;
+        forms = document.getElementById("Form");
+        forms.className = "container visible";
+        }
+
+        </script> -->
 
         <!-- <form style="padding-left:1%;">
             <div class="form-group">
