@@ -1,0 +1,29 @@
+{
+    "hospitals": [
+        {
+            "Hospital" : "Neuman 1",
+            "Zipcode" : "19801",
+            "Address" : " 104 nEUMAN aVENEU"
+        },
+        {
+            "Hospital" : "Neuman 2",
+            "Zipcode" : "19801",
+            "Address" : " 104 nEUMAN aVENEU"
+        },
+        {
+            "Hospital" : "Neuman 3",
+            "Zipcode" : "19801",
+            "Address" : " 104 nEUMAN aVENEU"
+        },
+        {
+            "Hospital" : "Neuman 4",
+            "Zipcode" : "19801",
+            "Address" : " 104 nEUMAN aVENEU"
+        },
+        {
+            "Hospital" : "Neuman 5",
+            "Zipcode" : "19801",
+            "Address" : " 104 nEUMAN aVENEU"
+        }
+    ]
+}
