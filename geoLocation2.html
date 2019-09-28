@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        
+    <title>Welcome Page</title>
+
+</head>
+    <header style="background-color: rgb(106, 160, 231)">
+        <img style="max-width: 25%; padding-top: 10px; padding-left: 10px" src="/assets/images/nemours-childrens-health-system-desktop.svg" alt="Nemours Children's Health System">
+    </header>
+    <body style="background-color: rgb(106, 160, 231)">
+        
+        <img style = "width: 100%;height:100%;padding-top: 5%" src="/assets/images/nemours1.jpg" alt="Nemours Hospital">
+        
+        <div class ="container" style="text-align:center;padding-top:5%">
+                <input type="text" class="form-control" placeholder="Enter your address or zipcode" aria-label="address" aria-describedby="addon-wrapping">
+        </div>
+    </body>
+    <script>
+        navigator.geolocation.getCurrentPosition(makeLink, noLink);
+         
+        function makeLink(position)
+        {
+          var lat = position.coords.latitude;
+          var long = position.coords.longitude;
+          document.location.href="file:///Users/Karl/Desktop/team-7/story.html";
+         
+        }
+        function noLink()
+        {
+          alert('Location not found!');
+        }
+         
+        </script>
+         
+</html>
