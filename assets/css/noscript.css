@@ -21,3 +21,18 @@
 		transform: none;
 		opacity: 1;
 	}
+
+
+.text{
+	font-size: 25%;
+	z-index: 4;
+	position: absolute;
+}
+
+.carousel{
+
+	max-width: 25vw;
+	max-height: 25vh;
+	
+	position: absolute;
+}
