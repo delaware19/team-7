@@ -9,28 +9,38 @@
            <h1>Appointment Types</h1>
         </header>       
 
-        <!--Would like to center the label below in CSS file-->
-        <div class="CardLabel">
-              <label class="CardioOptionLabel" for="CardDrop">Cardiology</label>
+        
+        <div class="Specialties">
+              <label class="SpecialtyLabel" for="SpecDrop">What kind of specialist are you seeing?</label>
         </div>
-        <div class="Cardiology">
-            <select class="CustomSelect" id="CardDrop">
-              <option selected>Cardiology appointment type:</option>
-              <option value="1">Consultation</option>
-              <option value="2">Checkup</option>
-              <option value="3">EKG</option>
+        <div class="Spec">
+            <select class="CustomSelect" id="SpecDrop">
+              <option selected>Specialties:</option>
+              <option value="1">Adolescent Medicine</option>
+              <option value="2">Allergy</option>
+              <option value="3">Audiology</option>
+              <option value="4">Behavioral Health</option>
+              <option value="5">Cardiac Critical Care</option>
+              <option value="6">Cardiology</option>
+              <option value="7">Cardiothoracic Surgery</option>
+              <option value="8">Communicative Disorders</option>
+              <option value="9">Critical Care Medicine</option>
             </select>
         </div>
-
-        <div class="EndoLabel">
-                <label class="EndoOptionLabel" for="EndoDrop">Endocrinology</label>
+        
+        <!--notes for presentation: can say we would've liked to filter appt type based on specialty
+         selected-->
+        <div class="ProcedureLabel">
+                <label class="ProcOptionLabel" for="ProcDrop">What is the reason for your visit?</label>
             </div>
-            <div class="Endocrinology">
-                <select class="CustomSelect" id="EndoDrop">
-                    <option selected>Endocrinology appointment type:</option>
-                    <option value="1">Consultation</option>
-                    <option value="2">Checkup</option>
-                    <option value="3">Blood Test</option>
+            <div class="Procedures">
+                <select class="CustomSelect" id="ProcDrop">
+                    <option selected>Procedures & services:</option>
+                    <option value="1">Blood work</option>
+                    <option value="2">Cardiovascular Ultrasound</option>
+                    <option value="3">CT Scan</option>
+                    <option value="4">Consultation</option>
+                    <option value="6">EKG</option>
                   </select>
             </div>
 
@@ -45,34 +55,6 @@
                 <option value="3">X-Ray</option>
               </select>
         </div>
-          
-        <!--Following categories don't have options-->
-        <div class="SleepLabel">
-            <label class="SleepOptionLabel" for="SleepDrop">Sleep Medicine</label>
-        </div>
-        <div class="SleepMed">
-            <select class="CustomSelect" id="SleepDrop">
-                <option selected>Sleep medicine appointment type:</option>
-            </select>
-        </div>
-        
-        <div class="DevBehavLabel">
-            <label class="DevBehavOptionLabel" for="DevBehavDrop">Developmental-Behavioral Pediatrics</label>
-        </div>
-        <div class="DevBehavMed">
-            <select class="CustomSelect" id="DevBehavDrop">
-                <option selected>Developmental-Behavioral appointment type:</option>
-            </select>
-        </div>
-
-        <div class="PulmLabel">
-                <label class="PulmOptionLabel" for="PulmDrop">Pulmonology (Respiratory)</label>
-            </div>
-            <div class="Pulm">
-                <select class="CustomSelect" id="PulmDrop">
-                    <option selected>Pulmonology appointment type:</option>
-                </select>
-            </div>
 
     </body>
 </html>
