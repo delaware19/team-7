@@ -6,20 +6,56 @@
 
     <body>
         <header>
-           <h1>What kind of appointment do you have scheduled?</h1>
+           <h1>Appointment Types</h1>
         </header>       
 
+        <!--Would like to center the label below in CSS file-->
         <div class="CardLabel">
-              <label class="CardioOptionLabel" for="cardDrop">Cardiology</label>
+              <label class="CardioOptionLabel" for="CardDrop">Cardiology</label>
         </div>
         <div class="Cardiology">
-            <select class="" id="cardDrop">
-              <option selected>Choose cardiology appointment type</option>
+            <select class="CustomSelect" id="CardDrop">
+              <option selected>Cardiology appointment type:</option>
               <option value="1">Consultation</option>
               <option value="2">Checkup</option>
               <option value="3">EKG</option>
             </select>
-          </div>
+        </div>
+
+        <div class="EndoLabel">
+                <label class="EndoOptionLabel" for="EndoDrop">Endocrinology</label>
+            </div>
+            <div class="Endocrinology">
+                <select class="CustomSelect" id="EndoDrop">
+                    <option selected>Endocrinology appointment type:</option>
+                    <option value="1">Consultation</option>
+                    <option value="2">Checkup</option>
+                    <option value="3">Blood Test</option>
+                  </select>
+            </div>
+
+        <div class="PodLabel">
+            <label class="PodOptionLabel" for="PodDrop">Podiatry (Feet)</label>
+        </div>
+        <div class="Podiatry">
+            <select class="CustomSelect" id="PodDrop">
+                <option selected>Podiatry appointment type:</option>
+                <option value="1">Consultation</option>
+                <option value="2">Checkup</option>
+                <option value="3">X-Ray</option>
+              </select>
+        </div>
           
+        <div class="SleepLabel">
+            <label class="SleepOptionLabel" for="SleepDrop">Sleep Medicine</label>
+        </div>
+        <div class="SleepMed">
+            <select class="CustomSelect" id="SleepDrop">
+                <option selected>Sleep medicine appointment type:</option>
+            </select>
+        </div>
+        
+        
+
     </body>
 </html>
