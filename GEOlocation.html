@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Find Caches Near Me!
+</title>
+<script>
+navigator.geolocation.getCurrentPosition(makeLink, noLink);
+ 
+function makeLink(position)
+{
+  var lat = position.coords.latitude;
+  var long = position.coords.longitude;
+  document.location.href="file:///Users/Karl/Desktop/team-7/story.html";
+ 
+}
+function noLink()
+{
+  alert('Location not found!');
+}
+ 
+</script>
+ 
+</head>
+ 
+<body>
+<h1>Swank Autism</h1>
+<p>If your browser asks to use your current location; allow. You will then be redirected to www.delautism.org</p>
+</body>
+</html>
